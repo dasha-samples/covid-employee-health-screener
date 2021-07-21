@@ -1,0 +1,393 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah", 
+        "I would",
+        "yes that's correct",
+        "yes, that's right",
+        "right",
+        "sure thing",
+        "totally right",
+        "that's right",
+        "see",
+        "totally",
+        "uh huh",
+        "uh-huh",
+        "I've been in contact",
+        "had a contact",
+        "contact with positive",
+        "contact with covid positive",
+        "contact with a sick",
+        "talked to a sick",
+        "talked to a covid positive",
+        "spoken with a sick"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "none of such",
+        "none of the kind",
+        "nothing like that",
+        "nothing of the sort",
+        "none of that",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "nah",
+        "incorrect",
+        "wrong",
+        "I'm okay",
+        "that's not right",
+        "that's wrong",
+        "I don't think so",
+        "I doubt that",
+        "no contact",
+        "I didn't have any contact",
+        "had zero contact",
+        "zero contact",
+        "haven't been in contact",
+        "no plans",
+        "no plan",
+        "not planning",
+        "not"
+      ]
+    },
+
+    "question": {
+      "includes": [
+        "I actually have a question",
+        "I have a question but I'm not sure who to ask",
+        "I have a question but I'm not sure you can answer it",
+        "I have a question",
+        "I've got a question",
+        "I actually have a question but I'm not quite sure you're the person to ask",
+        "I have a bunch of question",
+        "I have lots of questions"
+      ]
+    },
+
+    "maybe": {
+      "includes": [
+        "I'm not sure",
+        "I'm usure",
+        "I do not know",
+        "I don't know for sure",
+        "unsure",
+        "not sure",
+        "I'm not quite sure",
+        "unsure what I want",
+        "could be",
+        "maybe",
+        "perhaps",
+        "perhaps I have",
+        "maybe I have",
+        "maybe I have, I'm not sure",
+        "I'm not quite sure",
+        "could be so",
+        "potentially",
+        "very likely",
+        "think so",
+        "I might've had contact",
+        "I could've been in contact",
+        "might have contacted",
+        "could have contacted",
+        "been in contact",
+        "was in contact maybe"
+      ],
+      "excludes": [
+        "sure",
+        "unlikely",
+        "couldn't be",
+        "don't think so"
+      ]
+    },
+
+    "no_vac":
+    {
+      "includes":[
+        "I'm not vaccinated",
+        "haven't gotten vaccinated",
+        "didn't vaccinate",
+        "unvaccinated",
+        "no vaccine",
+        "don't have vaccine",
+        "didn't get a chance",
+        "had no chance to vaccinate",
+        "no chance to get vaccinated",
+        "couldn't get vaccinated"
+      ],
+      "excludes":[
+        "I'm vaccinated",
+        "have gotten vaccinated",
+        "did vaccinate",
+        "vaccinated",
+        "received vaccine",
+        "have vaccine",
+        "got a chance",
+        "had a chance to vaccinate",
+        "got a vaccine",
+        "did get vaccinated"
+      ]
+    },
+
+    "yes_vac":
+    {
+      "includes":[
+        "I'm vaccinated",
+        "have gotten vaccinated",
+        "did vaccinate",
+        "vaccinated",
+        "received vaccine",
+        "have vaccine",
+        "got a chance",
+        "had a chance to vaccinate",
+        "got a vaccine",
+        "did get vaccinated"
+      ],
+      "excludes": [
+        "I'm not vaccinated",
+        "haven't gotten vaccinated",
+        "didn't vaccinate",
+        "unvaccinated",
+        "no vaccine",
+        "don't have vaccine",
+        "didn't get a chance",
+        "had no chance to vaccinate",
+        "no chance to get vaccinated",
+        "couldn't get vaccinated"
+      ]
+    },
+
+    "yes_two_vac":
+    {
+      "includes":[
+        "I got two vaccines",
+        "fully vaccinated",
+        "got two doses",
+        "both doses",
+        "both times",
+        "get vaccinated twice",
+        "recieved both",
+        "got both",
+        "went twice",
+        "got twice"
+      ]
+    },
+
+    "vac_one":
+    {
+      "includes":[
+        "I got one vaccine",
+        "vaccinated once",
+        "got one dose",
+        "just one dose",
+        "one time",
+        "get vaccinated once",
+        "recieved one dose",
+        "reveived just one",
+        "got one",
+        "just one vaccine",
+        "just one dose of the vaccine",
+        "only one",
+        "only a dose",
+        "only one dose"
+      ]
+    },
+
+    "stay_home_policy":
+    {
+      "includes":[
+        "what's the policy",
+        "stay home policy",
+        "how long should I stay home",
+        "how many days do I stay home",
+        "stay home",
+        "how long stay home",
+        "long stay home",
+        "time stay home",
+        "how many hours do I spend home before returning to work",
+        "when can I get to work",
+        "when can I get back",
+        "how soon can I get back",
+        "soon back to work",
+        "back to work?",
+        "how long do I have to stay at home",
+        "how long do I stay home",
+        "when can I return to the office",
+        "when can I return to my workplace",
+        "when can I get back to work",
+        "in how many days can I return to the office"
+      ]
+    },
+
+    "bye": {
+      "includes": [
+        "bye",
+        "good bye",
+        "thanks bye",
+        "nevermind",
+        "forget about it",
+        "we're done",
+        "take it easy",
+        "peace out boo",
+        "peace"
+      ]
+    },
+
+    "payment": {
+      "includes":[
+        "will I be paid",
+        "what about salary",
+        "salary",
+        "medical leave",
+        "payment",
+        "paid",
+        "going to be paid",
+        "am I going to be paid",
+        "is it unpaid",
+        "paid or unpaid",
+        "unpaid or paid",
+        "paid or not",
+        "any payment",
+        "reimbursed",
+        "reimbursement",
+        "will I be reimbursed",
+        "will I get anything",
+        "payment wise",
+        "money wise",
+        "cash wise",
+        "will I get any cash",
+        "what about my pay",
+        "what about my salary",
+        "get cash",
+        "get money",
+        "get reimbursed",
+        "any payment for it",
+        "will I be paid if I stay home?",
+        "do I get paid if I stay home?",
+        "will I get my salary if I stay home",
+        "will it affect my pay",
+        "will it affect my salary",
+        "does me staying home affect my salary",
+        "does me staying home affect my pay",
+        "am I going to be paid if I stay home",
+        "do I get paid if I stay home",
+        "will i get paid if I stay home"
+      ]
+    },
+
+    "will_vaccinate": {
+      "includes": [
+        "I'll vaccinate",
+        "I'm planning on vaccinating",
+        "getting vaccinated",
+        "I'm getting my vaccine",
+        "getting vaccine",
+        "getting vaccinated",
+        "will be vaccinated",
+        "receive vaccine",
+        "get dose",
+        "receive dose",
+        "receive first dose",
+        "get fisrt dose",
+        "going to vaccinate",
+        "going to get vaccine",
+        "I'll get a vaccine",
+        "getting a vaccine",
+        "vaccinating soon",
+        "about to vaccinate",
+        "vaccinate"
+      ]
+    },
+    "wont_vaccinate": {
+      "includes": [
+        "I don't plan on vaccinating",
+        "can't vaccinate",
+        "no planning to vaccinate",
+        "no vaccination plans",
+        "don't wanna vaccinate",
+        "don't want to vaccinate",
+        "no vaccination",
+        "can't vaccinate because",
+        "I have medical conditions preventing",
+        "medical conditions prevent me from vaccinating",
+        "won't vaccinate",
+        "no vaccine",
+        "vaccines are bad for health",
+        "vaccines are bad for me",
+        "vaccines aren't for me",
+        "I don't trust vaccines",
+        "no trust in vaccines"
+      ]
+    }
+  },
+ 
+  "entities": 
+  {
+    "symptoms": 
+    {
+      "open_set": true,
+      "values": [
+        {
+          "value": "cough",
+          "synonyms": ["a cough", "coughing", "strong cough", "mild cough", "whooping cough"]
+        },
+        {
+          "value": "temperature",
+          "synonyms": ["fever", "feverish", "low grade fever", "high temperature", "very high temperature", "extreme fever", "temperature above"]
+        },
+        {
+          "value": "sore throat",
+          "synonyms": ["throat hurts", "throat itchy", "throat sore", "aching throat", "ache in the throat", "super sore throat", "throat painful", "pain in the throat"]
+        },
+        {
+          "value": "muscle ache",
+          "synonyms": ["muscles hurt", "tense muscles", "muscles hurt a lot", "muscles hurting", "aching muscles", "muscle pain", "pain in the muscles"]
+        },
+        {
+          "value": "runny nose",
+          "synonyms": ["a runny nose"]
+        },
+        {
+          "value": "bone ache",
+          "synonyms": ["bones hurt", "bones are aching", "aching bones"]
+        },
+        {
+          "value": "no smell",
+          "synonyms": ["sense of smell", "smell", "olfaction", "olfactory sense", "scent"]
+        },
+        {
+          "value": "no taste",
+          "synonyms": ["taste", "sense of taste", "taste buds"]
+        } 
+      ],
+      "includes": [
+        "I'm (coughing)[symptoms] and lost my (sense of smell)[symptoms]",
+        "I have (a cough)[symptoms] and a (no taste)[symptoms]",
+        "I'm having a (high temperature)[symptoms], (muscle aches)[symptoms] and a (cough)[symptoms]"
+      ]
+    }
+  }
+}
